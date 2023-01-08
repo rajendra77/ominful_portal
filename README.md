@@ -1,1 +1,4 @@
-# ominful_portal
+----- Steps to run project ----
+
+npm install
+npm run dev

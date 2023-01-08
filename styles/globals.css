@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "react-responsive-carousel/lib/styles/carousel.min.css";
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/Montserrat/OFL.txt');
+  src:  url('fonts/Montserrat/static//Montserrat-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+html,
+body {
+  letter-spacing: 0.04em;
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat';
+  src: url('fonts/Montserrat/OFL.txt');
+  src:  url('fonts/Montserrat/static//Montserrat-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.activeClass{
+  background: rgba(40, 199, 111, 0.12);
+  color: #28C76F;
+  
+}
+
+.inactiveClass{
+  background: #F9E7E7
+}
+.miniSidebarClass{
+  background: linear-gradient(90deg, #5468FA 0%, rgba(84, 104, 250, 0.6) 100%);
+}
+
+.btn1:focus,.btn:active {
+  outline: none !important;
+  box-shadow: none;
+}
+.accordion-button1 {
+  outline: none !important;
+  box-shadow: none;
+  border-color: rgba(0,0,0,.125);
+}
+.bgLight{
+  background : rgba(84, 104, 250, 0.06);
+}
+
+.borderLeft{
+  border-left: 10px solid #FFC82A;
+  padding: 5px;
+}
+.appTitle{
+  margin: 14px;
+
+}
+.borderBottom{
+  border-bottom: 1px solid #5468FA;
+}
+.text-xs{
+  font-size: 12px;
+}
+.pl-2{
+  padding-left: 4px;
+}
+.pl-3 {
+margin-left: 8px;
+}
+.pt-3{
+  padding-top: 8px;
+}
+.items-center{
+  align-items: center;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+.width300{
+   width: 300px
+}
+.py-4{
+  padding-top: 3px !important;
+  padding-bottom: 3px !important;
+}
